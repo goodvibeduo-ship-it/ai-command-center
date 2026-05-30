@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Tool & Automation Command Center</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <h1>AI Tool & Automation Command Center</h1>
+    <p class="subtitle">Track AI tools, categories, and use cases.</p>
+
+    <section class="form-card">
+      <h2>Add a New AI Tool</h2>
+      <label for="toolName">Tool name</label>
+      <input id="toolName" type="text" placeholder="Tool name, e.g. ChatGPT">
+      <label for="toolCategory">Tool Category</label>
+      <input id="toolCategory" type="text" placeholder="Category, e.g. Chat co-pilot">
+      <label for="toolUseCase">Tool Use Case</label>
+      <input id="toolUseCase" type="text" placeholder="Use case, e.g. Learning and coding help">
+
+      <button id="addToolButton">Add AI Tool</button>
+    </section>
+
+    <section class="list-card">
+      <h2>My AI Tools</h2>
+      <ul id="toolList"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
