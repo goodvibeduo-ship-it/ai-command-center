@@ -7,24 +7,29 @@
 <body>
 
   <main class="container">
-    <h1>AI Tool and Automation Command Center</h1>
-    <p class="subtitle">Track AI tools, categories, and use cases.</p>
+    <section class="hero">
+      <h1>AI Tool & Automation Command Center</h1>
+      <p>Track AI tools, categories, and use cases in one simple place.</p>
+    </section>
 
     <section class="form-card">
       <h2>Add a New AI Tool</h2>
+
       <label for="toolName">Tool name</label>
-      <input id="toolName" type="text" placeholder="Tool name, e.g. ChatGPT">
-      <label for="toolCategory">Tool Category</label>
-      <input id="toolCateclear
-      gory" type="text" placeholder="Category, e.g. Chat co-pilot">
-      <label for="toolUseCase">Tool Use Case</label>
-      <input id="toolUseCase" type="text" placeholder="Use case, e.g. Learning and coding help">
+      <input id="toolName" type="text" placeholder="Example: ChatGPT">
+
+      <label for="toolCategory">Category</label>
+      <input id="toolCategory" type="text" placeholder="Example: Chat co-pilot">
+
+      <label for="toolUseCase">Use case</label>
+      <input id="toolUseCase" type="text" placeholder="Example: Learning, writing, coding help">
 
       <button id="addToolButton">Add AI Tool</button>
     </section>
 
     <section class="list-card">
       <h2>My AI Tools</h2>
+      <p id="emptyMessage">No tools added yet. Add your first AI tool above.</p>
       <ul id="toolList"></ul>
     </section>
   </main>
